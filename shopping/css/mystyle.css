@@ -1,0 +1,495 @@
+body,ul,li,a,p,h1,h2,h3,h4{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "微软雅黑";
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+/* ******************************/
+
+.bar-header.user-header{
+    background-color:#FF4683;
+    text-align: center;
+    height: 50px;
+    overflow: hidden;
+    padding: 0;
+    line-height: 50px;  
+}
+
+span.user{
+    float: left;
+    display:block;
+    width: 32px;
+    width: 2rem;
+    height:50px;
+    margin-left: 10px;
+    margin-left:0.625rem;
+    background:url('../images/user.png') no-repeat center;
+    background-size: 32px;
+    background-size:2rem;
+}
+
+.bar-header.user-header h1{
+    height: 50px;
+    color: white;
+    font-size:1.375rem;
+    line-height: 50px;
+    font-weight: bold;
+}
+/* 头部结束 */
+
+/* 侧边导航 */
+.detail.scroll-content.ionic-scroll.has-tabs{
+    bottom: 0;
+}
+
+.body{
+    position: absolute;
+    top:50px;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+}
+
+.nav{
+     background-color:#f4f4f4;
+     height: 100%;
+     width:4.375rem;
+}
+
+.nav ul{
+    font-size:0.75rem;
+    color: #3a3a3a;
+    border-top: 1px solid #f4f4f4;
+}
+
+.nav ul li{
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nav ul li span.navlist{
+    display: block;
+    margin: 0 auto;
+    width: 31px;
+    height: 31px;
+    border-radius:15px;  
+    line-height: 40px;
+    margin-bottom:5px;
+    background-color:#dbdbdb;
+}
+
+.nav ul li span.navtitle{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav ul li.active span.navlist,.nav ul li.active i{
+     background-color:#FF4683;
+}
+
+.nav ul li.active span{
+    color:#F38882; 
+}
+
+
+
+.nav ul li span.navlist img{
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+.nav ul i{
+    display: block;
+    position: absolute;
+    width: 2px;
+    margin-top:-78px;
+    left: 50%;
+    margin-left:-1px;
+    height: 22px;
+    background-color:#dbdbdb;
+}
+/* 商家导航结束 */
+
+
+
+/* 商家主体部分 */
+.scroll-content.detail{
+    left:80px;
+    right:10px;
+}
+
+div.list h3{
+    font-size: 24px;
+    color:#727a7f;
+    margin:10px 0 10px 0;
+    line-height:1;
+}
+
+.detail .item{
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.detail img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* 重置 */
+div.row{
+    padding: 0;
+}
+
+div.col{
+    padding: 0;
+}
+/* ***** */
+
+
+div.col p.name{
+    color:#1b1e20 ;
+    font-size:16px;
+    margin: 10px auto 6px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+}
+
+div.col span.price{
+    color:#1b1e20 ;
+    font-size:16px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+}
+
+div.col span.unit{
+    color:#9da0a8;
+}
+
+i.add{
+    background:url(../images/add.png) no-repeat center;
+}
+
+i.subtract{  
+    background:url(../images/subtract.png) no-repeat center;
+}
+
+div.col .number{
+    display:block;
+    float: right;
+    width: 25px;
+    height:25px;
+    line-height:23px;
+    border: 1px solid gray;
+    outline: none;
+    margin-top: 25px;
+    text-align:center;
+    font-size:16px;
+}
+
+div.col i{
+    display:block;
+    float: right;
+    width: 32px;
+    height: 25px;
+    margin-top:25px;
+    background-size: 25px;
+}
+/* 商家主体结束 */
+
+
+/* 脚部 */
+.bar.bar-footer.user-footer{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+}
+
+.left{
+    width: 70%;
+    background-color:#3E3A39;
+    color:white ;
+    font-size:1rem;
+    text-align:left;
+    padding-left: 17px;
+}
+
+button.right{
+    display:block;
+    width: 30%;
+    background-color:#6B615E;
+    color: #929191;
+    font-size: 1rem;
+    border: 0;
+    outline: none;
+}
+
+button.right.current{
+    background-color:#FF4683;
+    color: #fff;
+    font-weight: normal;
+    font-size: 1rem;
+}
+/* 商家脚部结束 */
+
+/*************订单页开始*****************/
+
+.bar.bar-header.order-header{
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.bar-header.order-header h1{
+    position: absolute;
+    left:0;
+    right: 0;
+    top:0;
+    margin: 0;
+    font-size:18px;
+    color:#555555;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.button.icon.ion-ios-arrow-back{
+    padding:0 0 0 15px;
+    height: 49px;
+    background: white;
+}
+
+.icon.ion-ios-arrow-back.button:after{
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* 重置样式 */
+.bar.bar-subfooter{
+    bottom: 50px;
+    padding: 0;
+}
+
+.bar.bar-subfooter input{
+    width:100%;
+    height:44px;
+    margin:0 15px 0 15px;
+    font-size:14px;
+    padding: 0;
+    font-weight: bold;
+    line-height: normal; 
+    line-height: 44px\9;
+}
+
+.bar-subfooter ::-webkit-input-placeholder {
+    color:#999999;
+}
+
+
+/* 订单内容 */
+.scroll-content.order-content{
+    top: 50px;
+    bottom: 94px;
+
+    background-color:#f4f4f4;
+}
+
+.order-list{
+    margin-top:15px;
+    background: white;
+    padding: 0 15px;
+    border-top: 1px solid #dbdbdb;
+}
+
+
+p.user001{
+    padding: 10px 0;
+    margin-bottom:0;
+    line-height: 11px;
+    border-bottom: 1px dashed  #dbdbdb; 
+}
+
+p.user001 img{
+    width: 25px;
+    height: 25px;
+}
+
+div.li-list{
+    overflow: hidden;
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #dbdbdb;
+    font-weight: bold;
+}
+
+div.li-list p.order-left{
+    margin-bottom: 0;
+    float:left;
+    width:33%;
+
+}
+
+div.li-list .order-right{
+    float: left;
+    width: 67%;
+    font-size: 16px;
+    color: #333333;
+    overflow: hidden;
+}
+
+.order-right .price{
+   font-size: 16px;
+    color: #333333;
+}
+
+.order-right .unit{
+    font-size:14px;
+    color: #999999;
+}
+
+.order-right .btns{
+    float: right;
+}
+
+div.btns i{
+    display:block;
+    float: right;
+    width: 30px;
+    height: 25px;
+    margin-top:10px;
+    background-size: 25px;
+}
+
+
+i.add{
+    background:url(../images/add.png) no-repeat center;
+}
+
+i.subtract{  
+    background:url(../images/subtract.png) no-repeat center;
+}
+
+div.btns .numberOrder{
+    display:block;
+    float: right;
+    width: 25px;
+    height:25px;
+    border: 1px solid gray;
+    margin-top:10px;
+    text-align: center;
+    line-height: 25px;
+}
+
+
+/*弹窗样式 */
+.popup-container.popUp .popup{
+    background-color: #f0f0f0;
+    width: 270px;
+    border-radius: 5px;
+}
+
+.popUp .popup-head{
+    padding: 0;
+    border: none;
+}
+
+/* 标题 */
+.popUp .popup-body{
+    padding:0;
+    border-bottom:1px solid #dbdbdb ;
+}
+
+.popUp .popup-body span{
+    display:block;
+    height: 78px;
+    line-height: 78px;
+    text-align: center;
+    color:#1b1e20;
+    font-size:16px;
+    font-weight: bold;
+}
+
+
+/* 按钮 */
+.popUp .popup-buttons{
+    padding:0;
+    height: 44px;
+}
+
+/* 单个按钮 */
+.popUp .popup-buttons .button{
+    margin-right: 0;
+    background-color: #f0f0f0;
+    color:#FF4683;
+    font-size:16px;
+    padding:0;
+    font-weight:bold;
+    border: 0;
+}
+
+.popUp .popup-buttons .button:first-child{
+    border-right: 1px solid #dbdbdb;
+    border-bottom-left-radius:5px;
+}
+
+.popUp .popup-buttons .button:last-child{
+    border-bottom-right-radius: 5px;
+}
+
+/* 单个button为元素 */
+.popup-buttons .button:after{
+    display: none;
+}
+
+
+/* tips样式 */
+.tips-content.scroll-content.ionic-scroll{
+    background-color:#f4f4f4;
+    text-align: center;
+}
+
+.tips-content img{
+    margin-top: 116px;
+    margin-bottom: 21px;
+    width: 112px;
+    height: 112px;
+}
+
+.tips-content p{
+    color:#999999;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tips-btn{
+    margin-top: 46px;
+    font-size: 16px;
+    font-weight: bold;
+    padding:13px 38px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    color: white;
+    background-color:#FF4683;
+}

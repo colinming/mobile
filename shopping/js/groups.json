@@ -1,0 +1,305 @@
+[
+    {
+        "id": 1,
+        "name": "主菜",
+        "icon": "http://dummyimage.com/64x64/ccc/333.jpg",
+        "items": [{
+            "id": 1,
+            "name": "三金耗儿鱼",
+            "price": 318.00,
+            "unit": "锅",
+            "pic": "images/food01.jpg",
+            "cnt":0
+        }, 
+        {
+            "id": 5,
+            "name": "青椒肉丝",
+            "price": 28.00,
+            "unit": "盘",
+            "pic":"images/food00000110.jpg",
+            "cnt":0
+        }, 
+        {
+            "id": 11,
+            "name": "外婆开胃鱼",
+            "price": 78.00,
+            "unit": "条",
+            "pic": "images/food0000011.jpg",
+            "cnt":0
+        }, 
+        {
+            "id": 12,
+            "name": "清炒时蔬",
+            "price": 18.00,
+            "unit": "盘",
+            "pic": "images/food00000112.jpg",
+            "cnt":0
+        }, 
+        {
+            "id": 13,
+            "name": "烤草鱼",
+            "price": 98.00,
+            "unit": "条",
+            "pic": "images/food00000113.jpg",
+            "cnt":0
+        }, 
+        {
+            "id": 14,
+            "name": "烤江连",
+            "price": 116.00,
+            "unit": "条",
+            "pic": "images/food00000114.jpg",
+            "cnt":0
+        }, 
+        {
+            "id": 15,
+            "name": "烤财鱼",
+            "price": 128.00,
+            "unit": "条",
+            "pic": "images/food00000115.jpg",
+            "cnt":0
+        }
+
+        ]
+    },
+    {
+       "id": 2,
+        "name": "热菜",
+        "icon": "http://dummyimage.com/64x64/ccc/333.jpg",
+        "items": [{
+            "id": 21,
+            "name": "海带",
+            "price": 21.00,
+            "unit": "盘",
+            "pic": "images/food00000116.jpg",
+            "cnt":0
+        },
+        {
+            "id": 22,
+            "name": "龙虾",
+            "price": 98.00,
+            "unit": "盆",
+            "pic": "images/food02.jpg",
+            "cnt":0
+        },
+        {
+            "id": 23,
+            "name": "千张",
+            "price": 15.00,
+            "unit": "盘",
+            "pic": "images/food00000117.jpg",
+            "cnt":0
+        },
+        {
+            "id": 24,
+            "name": "松滋杜婆鸡",
+            "price": 119.00,
+            "unit": "盆",
+            "pic": "images/food00000118.jpg",
+            "cnt":0
+        },
+        {
+            "id": 25,
+            "name": "干锅千叶豆腐",
+            "price": 45.00,
+            "unit": "锅",
+            "pic": "images/food00000119.jpg",
+            "cnt":0
+        },
+        {
+            "id": 26,
+            "name": "小炒黄牛肉",
+            "price": 58.00,
+            "unit": "碗",
+            "pic": "images/food0000012.jpg",
+            "cnt":0
+        },
+        {
+            "id": 27,
+            "name": "森林铁锅鱼",
+            "price": 123.00,
+            "unit": "锅",
+            "pic": "images/food00000120.jpg",
+            "cnt":0
+        },
+        {
+            "id": 28,
+            "name": "青椒肉丝",
+            "price": 25.00,
+            "unit": "盘",
+            "pic": "images/food00000121.jpg",
+            "cnt":0
+        }
+        ] 
+    },
+    {
+        "id": 3,
+        "name": "凉菜",
+        "icon": "http://dummyimage.com/64x64/ccc/333.jpg",
+        "items": [{
+            "id": 31,
+            "name": "凉拌皮蛋",
+            "price": 20.00,
+            "unit": "份",
+            "pic": "images/food03.jpg",
+            "cnt":0
+        }, {
+            "id": 32,
+            "name": "手撕包菜",
+            "price": 15.00,
+            "unit": "盘",
+            "pic": "images/food00000122.jpg",
+            "cnt":0
+        }, {
+            "id": 33,
+            "name": "拍黄瓜",
+            "price": 15.00,
+            "unit": "盘",
+            "pic": "images/food00000123.jpg",
+            "cnt":0
+        }, {
+            "id": 34,
+            "name": "鲜鱼锅",
+            "price": 95.00,
+            "unit": "锅",
+            "pic": "images/food00000124.jpg",
+            "cnt":0
+        }, {
+            "id": 35,
+            "name": "豆腐",
+            "price": 20.00,
+            "unit": "份",
+            "pic": "images/food00000125.jpg",
+            "cnt":0
+        }, {
+            "id": 36,
+            "name": "馋嘴鱼",
+            "price": 45.00,
+            "unit": "盘",
+            "pic": "images/food00000126.jpg",
+            "cnt":0
+        }, {
+            "id": 37,
+            "name": "干锅千叶豆腐鱼",
+            "price": 55.00,
+            "unit": "份",
+            "pic": "images/food00000127.jpg",
+            "cnt":0
+        }
+
+        ]   
+    },
+    {
+        "id": 4,
+        "name": "汤品",
+        "icon": "http://dummyimage.com/64x64/ccc/333.jpg",
+        "items": [{
+            "id": 41,
+            "name": "紫菜蛋汤",
+            "price": 20.00,
+            "unit": "碗",
+            "pic": "images/food00000128.jpg",
+            "cnt":0
+        }, {
+            "id": 42,
+            "name": "排骨汤",
+            "price": 50.00,
+            "unit": "盆",
+            "pic": "images/food04.jpg",
+            "cnt":0
+        }, {
+            "id": 43,
+            "name": "宫保鸡丁",
+            "price": 70.00,
+            "unit": "盘",
+            "pic": "images/food00000129.jpg",
+            "cnt":0
+        }, {
+            "id": 44,
+            "name": "肉末冬瓜",
+            "price": 22.00,
+            "unit": "盘",
+            "pic": "images/food00000130.jpg",
+            "cnt":0
+        }, {
+            "id": 45,
+            "name": "重庆毛血旺",
+            "price": 55.00,
+            "unit": "盆",
+            "pic": "images/food00000131.jpg",
+            "cnt":0
+        }, {
+            "id": 46,
+            "name": "玉米烧排骨",
+            "price": 70.00,
+            "unit": "盘",
+            "pic": "images/food0000014.jpg",
+            "cnt":0
+        }, {
+            "id": 47,
+            "name": "香水鱼",
+            "price": 78.00,
+            "unit": "盆",
+            "pic": "images/food0000015.jpg",
+            "cnt":0
+        }
+        ]   
+    },
+    {
+        "id": 5,
+        "name": "点心",
+        "icon": "http://dummyimage.com/64x64/ccc/333.jpg",
+        "items": [{
+            "id": 51,
+            "name": "绿豆饼",
+            "price": 20.00,
+            "unit": "份",
+            "pic": "images/food05.jpg",
+            "cnt":0
+        }, {
+            "id": 52,
+            "name": "土豆饼",
+            "price": 15.00,
+            "unit": "份",
+            "pic": "images/food0000016.jpg",
+            "cnt":0
+        }, {
+            "id": 53,
+            "name": "泡藕带炒山药",
+            "price": 89.00,
+            "unit": "份",
+            "pic": "images/food0000017.jpg",
+            "cnt":0
+        }, {
+            "id": 54,
+            "name": "时令蔬菜",
+            "price": 15.00,
+            "unit": "份",
+            "pic": "images/food0000018.jpg",
+            "cnt":0
+        }, {
+            "id": 55,
+            "name": "玉米排骨汤",
+            "price": 55.00,
+            "unit": "份",
+            "pic": "images/food0000019.jpg",
+            "cnt":0
+        }, {
+            "id": 56,
+            "name": "皮蛋拌豆腐",
+            "price": 15.00,
+            "unit": "份",
+            "pic": "images/food0000020.jpg",
+            "cnt":0
+        }, {
+            "id": 57,
+            "name": "柠檬番茄鱼吊锅",
+            "price": 65.00,
+            "unit": "锅",
+            "pic": "images/food0000021.jpg",
+            "cnt":0
+        }
+
+        ]   
+    }
+]

@@ -1,0 +1,21 @@
+[{
+        "choose":true,
+        "pic":"./images/sale.png",
+        "name":"主菜"
+        },
+    {
+        "choose":false,
+        "pic":"./images/turkey.png",
+        "name":"热菜"
+        },
+    {
+        "choose":false,
+        "pic":"./images/garnish.png",
+        "name":"凉菜"
+        },
+    {
+        "choose":false,
+        "pic":"./images/soup.png",
+        "name":"汤品"
+        }
+]
