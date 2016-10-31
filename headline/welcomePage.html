@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>welcomePage</title>
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+
+</head>
+<body>
+     <section class="pageShow" id="welcomePage">
+        <h1 id="logo">
+            <img src="images/welcomenews02.png" height="256" width="256">
+        </h1>
+        <div class="global"></div>
+    </section>
+    <script type="text/javascript">
+        $(function(){
+            
+            $('#welcomePage').fadeIn('slow');
+
+            setTimeout(function(){
+                $('#welcomePage').fadeOut('fast',function(){
+
+                    window.location.href="pages/index.html";
+                });
+            },2000)
+
+
+        })
+
+      
+
+
+    </script>
+</body>
+</html>

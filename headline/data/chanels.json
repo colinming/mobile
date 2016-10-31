@@ -1,0 +1,80 @@
+
+    {
+        "delChannel":[
+            {
+        
+                "channel":"推荐"
+            },
+            {
+             
+                "channel":"社会"
+            },
+            {
+             
+                "channel":"娱乐"
+            },
+            {
+              
+                "channel":"科技"
+            },
+            {
+              
+                "channel":"汽车"
+            },
+            {
+              
+                "channel":"体育"
+            },
+            {
+             
+                "channel":"财经"
+            },
+            {
+              
+                "channel":"军事"
+            },
+            {
+         
+                "channel":"国际"
+            },          
+            {
+           
+                "channel":"时尚"
+            },
+            {
+           
+                "channel":"游戏"
+            },
+            {
+             
+                "channel":"热点"
+            }
+        ],
+        "addChannel":[
+            {
+                "channel":"旅游"
+            },
+            {
+                "channel":"历史"
+            },
+            {
+                "channel":"探索"
+            },
+            {
+                "channel":"美食"
+            },
+            {
+                "channel":"育儿"
+            },
+            {
+                "channel":"养生"
+            },
+            {
+                "channel":"故事"
+            },
+            {
+                "channel":"美文"
+            }
+        ]
+    }
+

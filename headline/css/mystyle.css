@@ -1,0 +1,417 @@
+*{margin:0;padding:0;}
+a{text-decoration:none;color:#131313;}
+li{list-style:none;}
+.clearfix::after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+/* 去除手机浏览器默认边框 */
+button,input{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-user-modify:read-write-plaintext-only;
+    outline:0;
+}
+
+body{font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;min-width:320px;}
+
+#indexHeader{width:100%;min-width:320px;height:3rem;background:gray;
+    text-align:center;color:#fff;line-height:3rem;position: fixed;top:0;left:0;z-index: 999}
+#indexHeader .top_bar{width:100%; height:3rem;background: #D43D3D;}
+
+#indexHeader .top_bar .title{
+    text-align: center;
+    width: 100%;
+    height: 3rem;
+    font-size:0;
+    line-height:3rem;
+}
+
+#indexHeader .top_bar .title .title_headline{
+    display:inline-block;
+    width:5rem;
+    height:3rem;
+    background:url(../images/wap_logo@3x_5313fda.png) no-repeat center;
+    background-size:100%;
+    margin-right: 3px;
+}
+
+#indexHeader .top_bar .title .refresh{
+    display:inline-block;
+    width: 1.25rem;
+    height: 3rem;
+    line-height: 3rem;
+    background:url(../images/refresh.png) no-repeat center;
+    background-size:80%;
+}
+
+
+#indexHeader .top_bar a{
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+}
+
+#indexHeader .top_bar .message{
+    left: 0;
+    background:url(../images/message.png) no-repeat center;
+    background-size:50%;
+}
+
+#indexHeader .top_bar .search{
+    right: 0;
+    background:url(../images/search.png) no-repeat center;
+    background-size: 50%;
+}
+
+
+#indexHeader .top_menu{width:100%;height:2.3125rem;background:#F4F5F6;position: relative;}
+
+#indexHeader .top_menu .top_menu_bar{
+    overflow: hidden;
+    height:2.3125rem;
+}
+
+#indexHeader .top_menu .more{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color:#F4F5F6 ;
+    background-image:url(../images/add.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    width:2.3125rem;
+    height:2.3125rem;
+    background-size:1.35rem;
+}
+
+#indexHeader .top_menu .top_menu_list{
+    white-space:nowrap;
+    font-size: 0;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+#indexHeader .top_menu .top_menu_list a{
+    font-size:1.115rem;
+    display:inline-block;
+    line-height: 2.3125rem;
+    color:#131313;
+    margin:0 .75rem;
+}
+
+#indexHeader .top_menu .top_menu_list a.active{
+    color: #D43D3D;
+}
+
+
+/* welcomePage */
+.pageShow{
+    width: 100%;
+    height: 100%;
+    background:url(../images/bgpic.jpg) no-repeat center;
+    background-size: cover;
+    position:absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    z-index:99999;
+}
+
+.pageShow #logo img{
+    position: absolute;
+    width:25%;
+    height:15%;
+    top: 58%;
+    left: 58%;
+    -webkit-animation:rotateNews 1s ease-out forwards;
+    
+}
+
+.pageShow .global{
+    width: 23%;
+    height:13%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background:url(../images/welcome-02.png) no-repeat center;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/welcome-02.png',sizingMethod='scale');
+    
+    /* 设置默认样式，开启3d硬件加速 */
+    -webkit-transform:translate3d(0,0,0);
+    -moz-transform:translate3d(0,0,0);
+    transform:translate3d(0,0,0);
+    /* 设置动画，animation:动画名称 
+        动画播放时长单位秒或微秒 
+        动画播放的速度曲线linear为匀速 
+        动画播放次数infinite为循环播放; */
+    -webkit-animation:rotateGlobal 2s,play 3s linear infinite;
+    -moz-animation:rotateGlobal 2s,play 3s linear infinite;
+    animation:rotateGlobal 2s,play 3s linear 1s infinite;    
+}
+
+@-webkit-keyframes rotateNews{
+    0%{
+        left:110%;
+        -webkit-transform: rotate(30deg);
+    }
+    100%{
+        left:58% ;
+        -webkit-transform: rotate(-30deg);
+    }
+
+}
+
+@-webkit-keyframes rotateGlobal{
+    0%{
+        top:-5%;
+    }
+    100%{
+        top:5%;
+    }
+
+}
+
+
+@-webkit-keyframes play{
+    0% {
+        
+        /* 水平翻转 */
+        /* -webkit-transform:rotateY(0deg);  */
+        
+        /* 垂直翻转 */
+        /* -webkit-transform:rotateX(0deg); */
+        /* 顺时针旋转
+        -webkit-transform:rotateZ(0deg); */
+        /* 逆时针旋转 */
+        -webkit-transform:rotateZ(0deg);
+        
+    }
+    100% {
+        /* 水平翻转  */
+         /* -webkit-transform:rotateY(360deg); */
+        /* 垂直翻转 */
+        /* -webkit-transform:rotateX(360deg); */
+       /*  顺时针旋转
+        -webkit-transform:rotateZ(360deg); */
+        /* 逆时针旋转  */
+         -webkit-transform:rotateZ(-360deg);
+       
+    }
+}
+
+
+
+
+
+/*pageIntro */
+.main{
+    width: 96%;
+    height: 100%;
+    margin: 5.3125rem 2% 3rem;   
+}
+
+.main .common{
+    width: 100%;
+    padding:10px 0px;
+}
+
+.main .common a{
+    display:block;
+    width:100%;
+}
+
+.main .common a h3{
+    color: #aaa;
+    font-size:1.125rem;
+    font-weight:400;
+}
+
+.main .common a .list_image{
+    width: 100%;
+
+}
+
+.main .common a .list_image ul{
+    font-size:0;
+}
+
+.main .common a .list_image ul li{
+    width: 33.3%;
+    max-height:8rem;
+    display:inline-block;
+    border:3px solid #fff;
+    box-sizing:border-box;
+}
+
+.main .common a .list_image ul li img{
+    width: 100%;
+    height:auto;
+}
+
+.main .common a .item_info{
+    color:#999;
+    font-size:0.75rem; 
+    margin-top:3px;
+}
+
+.main .common a .item_info .space{
+    margin-right:3px;
+}
+
+.main .common .detail2_a{
+    font-size: 0;
+} 
+
+
+
+.main .common a .right_detail{
+    display:inline-block;
+    width: 67%;
+    line-height:;
+    vertical-align:top;
+}
+
+.main .common .left_image{
+    display:inline-block;
+    width: 33%;
+
+}
+
+.main .common .left_image img{
+    width:100%;
+    height: auto;
+}
+
+/* pages */
+.container{
+    
+}
+
+.container .page{
+    display:none;
+}
+
+
+/* footer */
+#indexFooter{width:100%; min-width: 320px; height:3rem;background:#dbdbdb;
+    line-height:3rem;position:fixed; font-size:0;bottom:0;left:0;z-index: 999}
+#indexFooter a{width:25%;border:1px solid #fff;box-sizing:border-box;text-align:center;display:inline-block;color:#131313;font-size:1rem;}
+
+/*********search页面**********/
+#searchHeader{
+    width: 100%;
+    height: 3rem;
+    background: #D43D3D;
+    text-align: center;
+    line-height: 3rem;
+    position: relative;
+}
+
+#searchHeader .search{
+    color: #fff;
+    font-size:20px;
+}
+
+#searchHeader .backBtn{
+    position: absolute;
+    top:0;
+    left: 0;
+    width:3rem;
+    height: 3rem;
+    background:url(../images/header_back.png) no-repeat center;
+    background-size:45%;
+}
+
+#search_form{
+    background: #c9c9c9;
+    position: relative;
+}
+#search_form .search_content{
+    padding: 5px;
+}
+#search_form .search_content .form_inpt{
+    border: 0;
+    border-radius: 3px;
+    margin: 0;
+    width: 100%;
+    font-size: 16px;
+    -webkit-appearance: none;
+    padding: 5px 10px 5px 40px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    color: #666;
+    background: #fff;
+}
+#search_form .search_content .form_select{
+    display: block;
+    width: 40px;
+    height: 27px;
+    position: absolute;
+    background: url(../images/search_icons.png?ver=201408311655) #fff no-repeat 5px -36px;
+    background-size: 20px;
+    left: 5px;
+}
+#items{
+    
+}
+#items .hot_words{
+    
+}
+#items .hot_words .toutiao{
+    color: ;
+    text-align: center;
+    
+}
+#items .hot_words .toutiao li{
+    display: inline-block;
+    margin: 15px 5px 0;
+}
+#items .hot_words .toutiao li a{
+    display: block;
+    background: #f5f5f5;
+    color: #363636;
+    font-size: 15px;
+    padding: 5px;
+}
+
+/*********频道管理页面**********/
+.channels_detail .channels_msg{
+    color: #666;
+    font-size: 12px;
+    line-height: 2em;
+    padding: 0 10px;
+    background-color: #f5f5f5;
+}
+
+.channels_detail .list_channels{
+    margin: 20px 0 10px 0;
+    padding: 0;
+    position: relative;
+}
+
+.channels_detail .list_channels>li{
+    display: inline-block;
+    width: 25%;
+    margin-bottom: 10px;
+    -webkit-animation: zoomIn 300ms ease;
+}
+.channels_detail .list_channels>li>a{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 0 8px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 2em;
+    display: block;
+}
+    
+
+
+    
