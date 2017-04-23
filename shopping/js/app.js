@@ -1,9 +1,8 @@
-angular.module('starter', ['ionic','Controller'])//Controller
+angular.module('starter', ['ionic','Controller'])
 
-    //$routeProvider -->angularjs配置路由用
     .config(['$stateProvider','$urlRouterProvider', function($stateProvider,$urlRouterProvider){
 
-      //定义路由
+   
       $stateProvider
       
       //店家首页路由

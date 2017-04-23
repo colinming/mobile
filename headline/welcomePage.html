@@ -14,19 +14,27 @@
             <img src="images/welcomenews02.png" height="256" width="256">
         </h1>
         <div class="global"></div>
+        <div class="guide">
+            <span class="goIndex">进入网页版</span>
+            <span class="downloadApp">下载客户端</span>
+        </div>
+        
     </section>
     <script type="text/javascript">
         $(function(){
             
             $('#welcomePage').fadeIn('slow');
 
-            setTimeout(function(){
-                $('#welcomePage').fadeOut('fast',function(){
+            // setTimeout(function(){
+            //     $('#welcomePage').fadeOut('fast',function(){
 
-                    window.location.href="pages/index.html";
-                });
-            },2000)
+            //         window.location.href="pages/index.html";
+            //     });
+            // },2000)
 
+            $('.pageShow .goIndex').tap(function(){
+                window.location.href = "pages/index.html";
+            })
 
         })
 
