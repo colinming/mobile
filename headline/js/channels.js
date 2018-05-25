@@ -56,17 +56,34 @@ window.onload = function(){
 
 
         }
-    })
+    }); // ajax 结束
 
+
+
+    delChannels.addEventListener("DOMSubtreeModified", function(){
+        if(delChannels.children.length > 0){
+            var len = delChannels.children.length;
+            var str = '';
+            for(var i = 0; i < delChannels.children.length; i++){
+                str += delChannels.children[i].children[0].innerText + ',';
+                localStorage.setItem('defaultItems', str);
+            }
+        }
+    }, false);
+
+    addChannels.addEventListener("DOMSubtreeModified", function(){
+        if(addChannels.children.length > 0){
+            var len = addChannels.children.length;
+            console.log(len);
+        }
+    }, false);
 
 
 
 
 }
+
+
   
 
 
-
-
-
-    
